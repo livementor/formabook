@@ -3,3 +3,5 @@
 
 AllCops:
   TargetRubyVersion: ~
+Layout/LineLength:
+  Enabled: false
