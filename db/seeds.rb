@@ -21,12 +21,12 @@ Course.create(
   }, {
     title: 'Formation Marketing Digital',
     description: 'Ensemble, lançons des campagnes webmarketing exceptionnelles pour votre site, e-commerce, blog ou appli mobile avec la formation Marketing Digital de LiveMentor.',
-    thumbnail_url: 'https://www.livementor.com/wp-content/uploads/2020/05/logo-livementor.png',
+    thumbnail_url: 'https://www.livementor.com/wp-content/uploads/2019/04/new-logo.png',
     public_url: 'https://www.livementor.com/formation/marketing-digital/'
   }, {
     title: "Formation Création d'Entreprise",
     description: "On peut tous apprendre à créer une entreprise sans avoir suivi d'études en école de commerce, à convaincre et aller chercher des financements. Nous vous donnons toutes les clés dans notre formation Création d'Entreprise, du business plan au pitch !",
-    thumbnail_url: 'https://www.livementor.com/wp-content/uploads/2020/05/logo-livementor.png',
+    thumbnail_url: 'https://www.livementor.com/wp-content/uploads/2019/04/new-logo.png',
     public_url: 'https://www.livementor.com/formation/creation-entreprise/'
   }]
 )
