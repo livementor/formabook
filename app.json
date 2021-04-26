@@ -1,0 +1,20 @@
+{
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "bundle exec rails db:migrate && bundle exec rails db:seed"
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rspec spec/"
+      }
+    }
+  }
+}
