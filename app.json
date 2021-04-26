@@ -1,6 +1,6 @@
 {
   "addons": [
-    "heroku-postgresql"
+    "heroku-postgresql:hobby-dev"
   ],
   "buildpacks": [
     {
@@ -8,7 +8,7 @@
     }
   ],
   "scripts": {
-    "postdeploy": "rails db:create && rails db:migrate && rails:db:seed"
+    "postdeploy": "bundle exec rails db:migrate && bundle exec rails db:seed"
   },
   "environments": {
     "test": {
