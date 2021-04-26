@@ -19,7 +19,7 @@
       },
       "scripts": {
         "test-setup": "script/ci_test_setup",
-        "test": "script/ci"
+        "test": "script/ci_test"
       }
     }
   }
