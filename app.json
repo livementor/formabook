@@ -14,10 +14,11 @@
     "test": {
       "env": {
         "RAILS_ENV": "test",
-        "RACK_ENV": "test"
+        "RACK_ENV": "test",
+        "CC_TEST_REPORTER_ID": "2bcb5ec7af50919cb80b30803261e670bedc2a7ca6cdb637c94731e3d30d816f"
       },
       "scripts": {
-        "test-setup": "rails assets:precompile",
+        "test-setup": "script/ci_test_setup",
         "test": "bundle exec rspec spec/"
       }
     }
