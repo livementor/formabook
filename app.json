@@ -13,6 +13,7 @@
   "environments": {
     "test": {
       "scripts": {
+        "test-setup": "rails assets:precompile",
         "test": "bundle exec rspec spec/"
       }
     }
