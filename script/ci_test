@@ -1,8 +1,9 @@
 #!/bin/bash
+set -e
 
 export CI_NAME="heroku"
 export GIT_COMMITTED_AT="$(date +%s)"
 
-bundle exec rspec spec/ --format progress --format RspecJunitFormatter --out ~/tmp/test-results/rspec.xml
-
+bundle exec rspec spec
+RETURN_VALUE=$?
 ./cc-test-reporter after-build --exit-code $?

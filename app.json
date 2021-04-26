@@ -19,7 +19,7 @@
       },
       "scripts": {
         "test-setup": "script/ci_test_setup",
-        "test": "bundle exec rspec spec/"
+        "test": "script/ci_test"
       }
     }
   }
