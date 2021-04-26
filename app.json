@@ -9,6 +9,9 @@
       "url": "https://github.com/alphasights/buildpack-migrations.git"
     }
   ],
+  "scripts": {
+    "postdeploy": "rails db:create && rails db:migrate && rails:db:seed"
+  },
   "environments": {
     "test": {
       "scripts": {
