@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/cacfdcdf233ad3eb06a9/maintainability)](https://codeclimate.com/repos/60842e5bcb643701a100abfd/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/cacfdcdf233ad3eb06a9/test_coverage)](https://codeclimate.com/repos/60842e5bcb643701a100abfd/test_coverage)
+
 # Formabook Demo App
 
 Formabook is a course catalog listing the best training courses available out there.
