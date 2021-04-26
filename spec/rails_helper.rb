@@ -1,7 +1,13 @@
 # frozen_string_literal: true
 
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do # Ignore some files for test coverage
+  add_filter '/vendor/'
+  add_filter '/config/'
+  add_filter '/db/'
+  add_filter '/script/'
+  add_filter '/spec/'
+end
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
