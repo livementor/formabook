@@ -12,7 +12,12 @@
   },
   "environments": {
     "test": {
+      "env": {
+        "RAILS_ENV": "test",
+        "RACK_ENV": "test"
+      },
       "scripts": {
+        "test-setup": "rails assets:precompile",
         "test": "bundle exec rspec spec/"
       }
     }
