@@ -5,6 +5,6 @@ class Course < ApplicationRecord
   validates :title, uniqueness: true
 
   def thumbnail_url
-    read_attribute(:thumbnail_url) || 'https://via.placeholder.com/150'
+  read_attribute(:thumbnail_url) || 'https://via.placeholder.com/150'
   end
 end
