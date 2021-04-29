@@ -2,7 +2,7 @@
 
 class Course < ApplicationRecord
   validates :title, presence: true
-validates :title, uniqueness: true
+  validates :title, uniqueness: true
 
   def thumbnail_url
     read_attribute(:thumbnail_url) || 'https://via.placeholder.com/150'
