@@ -14,4 +14,10 @@ RSpec.describe CourseCardComponent, type: :component do
       render_inline(described_class.new(course: course)).to_html
     ).to include(course.description)
   end
+
+  it "displays a link to the course" do
+    expect(
+      render_inline(described_class.new(course: course)).to_html
+    ).to include('voir')
+  end
 end
