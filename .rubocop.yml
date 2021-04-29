@@ -2,6 +2,6 @@
 ## https://github.com/bbatsov/rubocop/blob/master/config/default.yml
 
 AllCops:
-  TargetRubyVersion: ~
+  TargetRubyVersion: 2.5
 Metrics/LineLength:
   Enabled: false
